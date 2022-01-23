@@ -24,38 +24,45 @@
   <nav
     class="navbar navbar-expand-md navbar-light bg-light">
     <div class="container-fluid">
-      <button class="navbar-toggler" type="button"
-        data-b!s-toggle="collapse"
+      <button
+        class="btn-light btn-outline-light navbar-toggler"
+        type="button" data-bs-toggle="collapse"
         data-bs-target="#website-links"
         aria-controls="website-links" aria-expanded="false"
         aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand me-auto ms-2"
+      <a class="navbar-brand me-auto ms-4 ms-md-2 fw-bold fs-2"
         href="#">sneakers</a>
-      <div class="collapse navbar-collapse"
-        id="website-links">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page"
-              href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#"
-              tabindex="-1"
-              aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-      </div>
-      <div class="d-flex flex-row gap-4 ms-auto me-2">
+      <div
+        class="d-flex flex-row gap-4 ms-auto me-2 order-md-last">
         <img src="./starter-files/images/icon-cart.svg"
           class="img-circle" alt="shopping cart">
         <div class="img-circle avatar" alt="profile avatar">
         </div>
       </div>
+      <div class="collapse navbar-collapse ms-md-5"
+        id="website-links">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page"
+              href="#">Collection</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Men</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Women</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+
     </div>
   </nav>
 
